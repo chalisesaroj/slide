@@ -1,0 +1,55 @@
+/* Minimal styling for the Sensors and Transducers reveal.js deck */
+
+:root {
+  --primary: #1a5276;
+  --secondary: #2e86c1;
+  --accent: #f39c12;
+  --text: #1f2933;
+  --bg: #ffffff;
+}
+
+.reveal {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal .slides section[data-background="#1a5276"] h1,
+.reveal .slides section[data-background="#1a5276"] h2,
+.reveal .slides section[data-background="#1a5276"] p,
+.reveal .slides section[data-background="#1a5276"] li {
+  color: white;
+}
+
+.reveal blockquote {
+  border-left: 4px solid var(--secondary);
+  padding-left: 1em;
+  color: #334155;
+  background: #f8fbff;
+}
+
+.reveal table {
+  font-size: 0.72em;
+}
+
+.reveal img {
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
+}
+
+.reveal .fragment {
+  opacity: 1;
+}

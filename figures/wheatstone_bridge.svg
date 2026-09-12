@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="740" viewBox="0 0 1150 740" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#12263A"/></marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1F6FB2"/></marker>
+</defs>
+<rect x="0" y="0" width="1150" height="740" fill="#ffffff"/>
+<line x1="575" y1="140" x2="225" y2="370" stroke="#12263A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="340.0" y="233.0" width="120" height="44" rx="6" fill="#FFFFFF" stroke="#12263A" stroke-width="3.5" transform="rotate(146.69 400.0 255.0)"/>
+<line x1="575" y1="140" x2="925" y2="370" stroke="#12263A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="690.0" y="233.0" width="120" height="44" rx="6" fill="#FFFFFF" stroke="#12263A" stroke-width="3.5" transform="rotate(33.31 750.0 255.0)"/>
+<line x1="225" y1="370" x2="575" y2="600" stroke="#12263A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="340.0" y="463.0" width="120" height="44" rx="6" fill="#FFFFFF" stroke="#12263A" stroke-width="3.5" transform="rotate(33.31 400.0 485.0)"/>
+<line x1="925" y1="370" x2="575" y2="600" stroke="#12263A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="690.0" y="463.0" width="120" height="44" rx="6" fill="#FFFFFF" stroke="#12263A" stroke-width="3.5" transform="rotate(146.69 750.0 485.0)"/>
+<circle cx="575" cy="140" r="9" fill="#12263A"/>
+<circle cx="225" cy="370" r="9" fill="#12263A"/>
+<circle cx="925" cy="370" r="9" fill="#12263A"/>
+<circle cx="575" cy="600" r="9" fill="#12263A"/>
+<line x1="575" y1="140" x2="575" y2="62" stroke="#12263A" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="575" cy="52" r="10" fill="#ffffff" stroke="#12263A" stroke-width="3"/>
+<text x="602" y="52" font-size="28" fill="#12263A" text-anchor="start" font-weight="bold" dominant-baseline="middle">+Vₛ</text>
+<line x1="575" y1="600" x2="575" y2="678" stroke="#12263A" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="575" cy="688" r="10" fill="#ffffff" stroke="#12263A" stroke-width="3"/>
+<text x="602" y="688" font-size="28" fill="#12263A" text-anchor="start" font-weight="bold" dominant-baseline="middle">−Vₛ</text>
+<line x1="225" y1="370" x2="533" y2="370" stroke="#12263A" stroke-width="3.0" stroke-linecap="round"/>
+<line x1="617" y1="370" x2="925" y2="370" stroke="#12263A" stroke-width="3.0" stroke-linecap="round"/>
+<circle cx="575" cy="370" r="42" fill="#ffffff" stroke="#1F6FB2" stroke-width="3.5"/>
+<text x="575" y="370" font-size="30" fill="#12263A" text-anchor="middle" dominant-baseline="middle" font-weight="bold">V<tspan font-size="20" dy="6">o</tspan></text>
+<text x="357" y="189" font-size="28" fill="#1F6FB2" text-anchor="middle" font-weight="bold" dominant-baseline="middle">R₁</text>
+<text x="793" y="189" font-size="28" fill="#1F6FB2" text-anchor="middle" font-weight="bold" dominant-baseline="middle">R₂</text>
+<text x="357" y="551" font-size="28" fill="#1F6FB2" text-anchor="middle" font-weight="bold" dominant-baseline="middle">R₃</text>
+<text x="793" y="551" font-size="25" fill="#E07B39" text-anchor="middle" font-weight="bold" dominant-baseline="middle">R₄ = R + ΔR</text>
+</svg>
