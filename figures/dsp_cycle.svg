@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#12263A"/></marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1F6FB2"/></marker>
+</defs>
+<rect x="0" y="0" width="1200" height="760" fill="#ffffff"/>
+<rect x="80" y="90" width="470" height="190" rx="14" fill="#F5F9FC" stroke="#1F6FB2" stroke-width="3.0"/>
+<text x="315.0" y="165.0" font-size="26" fill="#12263A" text-anchor="middle" font-weight="bold" dominant-baseline="middle">1 · Acquire</text>
+<text x="315.0" y="205.0" font-size="17" fill="#41576B" text-anchor="middle" font-weight="normal" dominant-baseline="middle">sensor → ADC, N samples</text>
+<rect x="650" y="90" width="470" height="190" rx="14" fill="#F5F9FC" stroke="#1F6FB2" stroke-width="3.0"/>
+<text x="885.0" y="165.0" font-size="26" fill="#12263A" text-anchor="middle" font-weight="bold" dominant-baseline="middle">2 · Pre-process</text>
+<text x="885.0" y="205.0" font-size="17" fill="#41576B" text-anchor="middle" font-weight="normal" dominant-baseline="middle">de-trend · window · scale</text>
+<rect x="650" y="480" width="470" height="190" rx="14" fill="#F5F9FC" stroke="#1F6FB2" stroke-width="3.0"/>
+<text x="885.0" y="555.0" font-size="26" fill="#12263A" text-anchor="middle" font-weight="bold" dominant-baseline="middle">3 · Transform</text>
+<text x="885.0" y="595.0" font-size="17" fill="#41576B" text-anchor="middle" font-weight="normal" dominant-baseline="middle">FIR / IIR filter · DFT / FFT</text>
+<rect x="80" y="480" width="470" height="190" rx="14" fill="#F5F9FC" stroke="#1F6FB2" stroke-width="3.0"/>
+<text x="315.0" y="555.0" font-size="26" fill="#12263A" text-anchor="middle" font-weight="bold" dominant-baseline="middle">4 · Present &amp; Act</text>
+<text x="315.0" y="595.0" font-size="17" fill="#41576B" text-anchor="middle" font-weight="normal" dominant-baseline="middle">plot · store · alarm · control</text>
+<line x1="555" y1="185" x2="645" y2="185" stroke="#12263A" stroke-width="3.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="885" y1="285" x2="885" y2="475" stroke="#12263A" stroke-width="3.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="645" y1="575" x2="555" y2="575" stroke="#12263A" stroke-width="3.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="315" y1="475" x2="315" y2="285" stroke="#12263A" stroke-width="3.5" stroke-linecap="round" marker-end="url(#ah)"/>
+</svg>
